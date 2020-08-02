@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 putu yaza
+Copyright (c) 2020 putu yaza (yazQuery)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

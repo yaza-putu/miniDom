@@ -4,11 +4,11 @@
  * *****************
  * fitur
  * *****************
- * eq, css, rawCss, attr, getAttr, removeAttr, animate, on, addClass, toggleClass
- * html, text, val, insertBefore, insertAfter, insertFirst, insertLast, empty, offset, log
- * parent, siblings, 
+ * css, rawCss, attr, getAttr, removeAttr, animate, on, addClass, toggleClass,html
+ * text, val, insertBefore, insertAfter, insertFirst, insertLast, empty, log,fetch
+ * 
  * ******************
- * Total fitur (22)
+ * Total fitur (19)
  * ******************
  ****/
 
@@ -31,10 +31,6 @@
     };
 
     yazQuery.prototype = {
-        eq: function (n) {
-            this.value = [this.value[n]];
-            return this;
-        },
         each: function (fn) {
             [].forEach.call(this.value, fn);
             return this;
@@ -154,19 +150,6 @@
         empty: function () {
             return this.each(function (i) {
                 i.innerHTML = "";
-            });
-        },
-        parent: function () {
-            return $(this.value[0].parentNode);
-        },
-        siblings: function () {
-            this.value = Array.prototype.filter.call(this.value[0].parentNode.children, (child) =>
-              child !== this.value[0]);
-            return this;
-        },
-        offset: function () {
-            return this.each(function (i) {
-                offset = i.getBoundingClientRect();
             });
         },
         log: function () {
