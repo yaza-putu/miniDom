@@ -1,3 +1,17 @@
+/****
+ * Autor : yaza
+ * License : MIT
+ * *****************
+ * fitur
+ * *****************
+ * eq, css, rawCss, attr, getAttr, removeAttr, animate, on, addClass, toggleClass
+ * html, text, val, insertBefore, insertAfter, insertFirst, insertLast, empty, offset, log
+ * parent, siblings, 
+ * ******************
+ * Total fitur (22)
+ * ******************
+ ****/
+
 !(function (factory) {
     if (typeof exports === 'object' && typeof module !== 'undefined') {
         module.exports = factory();
