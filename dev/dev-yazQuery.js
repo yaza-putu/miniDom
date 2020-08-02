@@ -5,10 +5,10 @@
  * fitur
  * *****************
  * css, rawCss, attr, getAttr, removeAttr, animate, on, addClass, toggleClass,html
- * text, val, insertBefore, insertAfter, insertFirst, insertLast, empty, log,fetch
+ * text, val, insertBefore, insertAfter, insertFirst, insertLast, empty, fetch
  * 
  * ******************
- * Total fitur (19)
+ * Total fitur (18)
  * ******************
  ****/
 
@@ -151,9 +151,6 @@
             return this.each(function (i) {
                 i.innerHTML = "";
             });
-        },
-        log: function () {
-            console.log(this);
         },
     };
 
