@@ -130,4 +130,4 @@ $_(selector).empty();
 $_('.classname').empty();
 ```
 18. fetch
-use this template fetch https://github.com/yaza-putu/fetch-template
+use this template fetch https://github.com/yaza-putu/fetch-template , fetch like ajax jquery
