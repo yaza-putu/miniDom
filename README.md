@@ -1,7 +1,7 @@
 # yazQuery
 Mini DOM manipulations like jquery
 
-# fitur 
+# Features
  * css, rawCss, attr, getAttr, removeAttr, animate, on, addClass, toggleClass, html
  * text, val, insertBefore, insertAfter, insertFirst, insertLast, empty, fetch
 * Total (18)
