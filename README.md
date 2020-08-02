@@ -11,12 +11,6 @@ for use you can first initialise with
 ```javascript
 $_(selector).function();
 ```
-# How to use
-for use you can first initialise with
-```javascript
-$_(selector).function();
-```
-
 1. css
 ```javascript
 $_(selector).css(style,textStyle);
