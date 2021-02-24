@@ -18,7 +18,7 @@
     } else if (typeof define === 'function' && define.amd) {
         define(factory);
     } else {
-        window.$_ = factory();
+        window.select = factory();
     }
 })(function () {
     var yazQuery = function (s) {
