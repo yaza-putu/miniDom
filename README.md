@@ -9,7 +9,9 @@ Mini DOM manipulations like jquery
 # How to use
 for use you can first initialise with
 ```javascript
-select(selector).function();
+select(document).ready(function(){
+    //code here
+});
 ```
 1. css
 ```javascript
