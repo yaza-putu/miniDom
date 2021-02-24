@@ -1,4 +1,4 @@
-# miniDom
+# Mini Dom
 Mini DOM manipulations like jquery
 
 # Features
