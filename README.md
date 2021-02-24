@@ -1,4 +1,4 @@
-# yazQuery
+# miniDom
 Mini DOM manipulations like jquery
 
 # Features

@@ -21,7 +21,7 @@
         window.select = factory();
     }
 })(function () {
-    var yazQuery = function (s) {
+    var miniDOM = function (s) {
         if (typeof s === "string") {
             this.value = Array.prototype.slice.call(document.querySelectorAll(s));
         }
@@ -30,7 +30,7 @@
         }
     };
 
-    yazQuery.prototype = {
+    miniDOM.prototype = {
         ready : function(callback) {
            // in case the document is already rendered
             if (document.readyState!='loading') callback();
@@ -165,6 +165,6 @@
     };
 
     return function (selector) {
-        return new yazQuery(selector);
+        return new miniDOM(selector);
     };
 });
